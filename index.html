@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My AI Workspace — Chetan Kumawat | AI Portfolio</title>
+  <meta name="description" content="Personal AI Operating System and Applied AI Portfolio by Chetan Kumawat (BCA 2nd Year, AITR Indore). Featuring 6 verified builds, prompt libraries, and grounded study workflows.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- ==========================================
+       1. NAVIGATION BAR
+       ========================================== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-brand">
+        <div class="brand-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+        </div>
+        <div class="brand-text">My AI <span>Workspace</span></div>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#workspace" class="nav-link">AI Workspace</a></li>
+          <li><a href="#prompts" class="nav-link">Prompt Library</a></li>
+          <li><a href="#journey" class="nav-link">Journey</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="Projects/My_AI_Workspace_Portfolio_Final.docx" download class="nav-cta">
+        Download Portfolio (.docx)
+      </a>
+
+      <button class="menu-toggle" aria-label="Toggle navigation menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       2. HERO SECTION
+       ========================================== -->
+  <section id="home" class="hero-section">
+    <canvas id="neuralCanvas"></canvas>
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge-wrap">
+          <div class="hero-pill">
+            <span class="hero-pill-pulse"></span>
+            <span>AI Bootcamp Capstone</span>
+          </div>
+          <!-- EDITABLE PLACEHOLDER: Student details -->
+          <div class="hero-student-meta">
+            Chetan Kumawat • BCA 2nd Year • AITR Indore
+          </div>
+        </div>
+
+        <h1 class="hero-title">
+          Building Smarter <br>
+          <span class="text-gradient">with AI.</span>
+        </h1>
+
+        <p class="hero-subtext">
+          Exploring Artificial Intelligence, Prompt Engineering, AI Workflows, and Practical Digital Solutions.
+          Transforming scattered AI chats into a permanent, structured Personal AI Operating System.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <span>Explore My Projects</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="#journey" class="btn btn-secondary">
+            <span>My Learning Journey</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual-card">
+        <img src="assets/images/hero_neural_visual.svg" alt="Abstract 3D Neural Network and AI Workspace Illustration" class="hero-visual-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       3. ABOUT ME
+       ========================================== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Student Profile</div>
+        <h2 class="section-title">Bridging Theory with <span class="text-gradient">Applied AI Systems</span></h2>
+        <p class="section-desc">
+          Building practical digital systems to enhance learning, software programming, and professional workflow efficiency.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="glass-card about-card">
+          <div class="about-header">
+            <div class="avatar-badge">CK</div>
+            <div>
+              <!-- EDITABLE PLACEHOLDER: Student Name -->
+              <h3 class="about-intro-title">Chetan Kumawat</h3>
+              <p class="about-intro-sub">BCA 2nd Year • Acropolis Institute of Technology and Research, Indore</p>
+            </div>
+          </div>
+
+          <p class="about-bio">
+            I am a Bachelor of Computer Applications (BCA) student passionate about modern software development, 
+            artificial intelligence tools, and productivity engineering. Through an intensive 6-day AI Bootcamp, 
+            I progressed from basic prompt exploration to designing multi-stage prompt chains, creating source-grounded 
+            study packages, and architecting my own local <strong>Personal AI Operating System</strong>.
+          </p>
+
+          <div class="skills-wrapper">
+            <h4>Verified Skill Competencies</h4>
+            <div class="skill-badges">
+              <span class="skill-tag"><span class="skill-dot"></span> AI Tools (ChatGPT, Gemini, Copilot)</span>
+              <span class="skill-tag"><span class="skill-dot"></span> Prompt Engineering (6-Field Schema)</span>
+              <span class="skill-tag"><span class="skill-dot"></span> Multi-Stage Prompt Chaining</span>
+              <span class="skill-tag"><span class="skill-dot"></span> Source-Grounded Study (NotebookLM)</span>
+              <span class="skill-tag"><span class="skill-dot"></span> Agentic Coding (Antigravity Assistant)</span>
+              <span class="skill-tag"><span class="skill-dot"></span> Front-End Alignment (HTML, CSS, React)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-stats">
+          <div class="glass-card stat-box">
+            <div class="stat-number">6</div>
+            <div class="stat-label">Milestone Builds Completed</div>
+          </div>
+          <div class="glass-card stat-box">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Standardized Prompts Cataloged</div>
+          </div>
+          <div class="glass-card stat-box">
+            <div class="stat-number">4</div>
+            <div class="stat-label">Core Workspace Folders</div>
+          </div>
+          <div class="glass-card stat-box">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Verified Local File Integrity</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       4. MY AI BUILDS
+       ========================================== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Bootcamp Portfolio</div>
+        <h2 class="section-title">My Six Verified <span class="text-gradient">AI Builds</span></h2>
+        <p class="section-desc">
+          Six practical projects executed during the AI bootcamp, spanning model benchmarking, parameter-driven prompts, 
+          domain study kits, career packs, sequential reasoning, and digital OS architecture.
+        </p>
+      </div>
+
+      <div class="builds-grid">
+        <!-- Build 01 -->
+        <div class="glass-card build-card">
+          <div class="build-thumb-wrap">
+            <img src="assets/images/build1.png" alt="Build 01 - AI Comparison Report" class="build-thumb">
+          </div>
+          <div class="build-body">
+            <div class="build-meta-row">
+              <span class="build-pill">BUILD 01</span>
+              <span class="build-status">● Verified Deliverable</span>
+            </div>
+            <h3 class="build-title">AI Comparison Report</h3>
+            <p class="build-desc">
+              Empirical side-by-side benchmarking of OpenAI ChatGPT, Google Gemini, and Microsoft Copilot across Python coding, conceptual clarity, and HTML form design.
+            </p>
+            <div class="build-tags">
+              <span class="tag-pill">ChatGPT</span>
+              <span class="tag-pill">Gemini</span>
+              <span class="tag-pill">Copilot</span>
+              <span class="tag-pill">Python</span>
+            </div>
+            <div class="build-actions">
+              <button class="btn-details" onclick="openProjectModal(1)">View Project</button>
+              <a href="Projects/Build_1_AI_Comparison_Report.docx" download class="link-report">
+                <span>View Report</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Build 02 -->
+        <div class="glass-card build-card">
+          <div class="build-thumb-wrap">
+            <img src="assets/images/build2.png" alt="Build 02 - Personal Prompt Playbook" class="build-thumb">
+          </div>
+          <div class="build-body">
+            <div class="build-meta-row">
+              <span class="build-pill">BUILD 02</span>
+              <span class="build-status">● Verified Deliverable</span>
+            </div>
+            <h3 class="build-title">Personal Prompt Playbook</h3>
+            <p class="build-desc">
+              A collection of 10 practical, validated prompts (5 for study, 5 for work) equipped with parameters, clear output expectations, and sample verified outputs.
+            </p>
+            <div class="build-tags">
+              <span class="tag-pill">Prompt Engineering</span>
+              <span class="tag-pill">ChatGPT</span>
+              <span class="tag-pill">Parameters</span>
+            </div>
+            <div class="build-actions">
+              <button class="btn-details" onclick="openProjectModal(2)">View Project</button>
+              <a href="Projects/Build_2_Personal_Prompt_Playbook.docx" download class="link-report">
+                <span>View Report</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Build 03 -->
+        <div class="glass-card build-card">
+          <div class="build-thumb-wrap">
+            <img src="assets/images/build3.png" alt="Build 03 - Personal AI Study Kit" class="build-thumb">
+          </div>
+          <div class="build-body">
+            <div class="build-meta-row">
+              <span class="build-pill">BUILD 03</span>
+              <span class="build-status">● Verified Deliverable</span>
+            </div>
+            <h3 class="build-title">Personal AI Study Kit</h3>
+            <p class="build-desc">
+              Curriculum-aligned Python Operators study kit containing core concepts, comprehensive syntax reference tables, practical code examples, and practice quiz questions.
+            </p>
+            <div class="build-tags">
+              <span class="tag-pill">Python 3.14</span>
+              <span class="tag-pill">Study System</span>
+              <span class="tag-pill">Exam Prep</span>
+            </div>
+            <div class="build-actions">
+              <button class="btn-details" onclick="openProjectModal(3)">View Project</button>
+              <a href="Projects/Build_3_Personal_AI_Study_Kit.docx" download class="link-report">
+                <span>View Report</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Build 04 -->
+        <div class="glass-card build-card">
+          <div class="build-thumb-wrap">
+            <img src="assets/images/build4.png" alt="Build 04 - Career Starter Pack" class="build-thumb">
+          </div>
+          <div class="build-body">
+            <div class="build-meta-row">
+              <span class="build-pill">BUILD 04</span>
+              <span class="build-status">● Verified Deliverable</span>
+            </div>
+            <h3 class="build-title">Career Starter Pack</h3>
+            <p class="build-desc">
+              Targeted internship preparation for a Front-End Developer Intern at Arivihan Technologies (Indore), featuring technical skill mapping, tailored resume, and interview prep.
+            </p>
+            <div class="build-tags">
+              <span class="tag-pill">Career Alignment</span>
+              <span class="tag-pill">HTML / CSS</span>
+              <span class="tag-pill">React.js</span>
+            </div>
+            <div class="build-actions">
+              <button class="btn-details" onclick="openProjectModal(4)">View Project</button>
+              <a href="Projects/Build_4_Career_Starter_Pack.docx" download class="link-report">
+                <span>View Report</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Build 05 -->
+        <div class="glass-card build-card">
+          <div class="build-thumb-wrap">
+            <img src="assets/images/build5.png" alt="Build 05 - 10-Step Prompt Chain Report" class="build-thumb">
+          </div>
+          <div class="build-body">
+            <div class="build-meta-row">
+              <span class="build-pill">BUILD 05</span>
+              <span class="build-status">● Verified Deliverable</span>
+            </div>
+            <h3 class="build-title">10-Step Prompt Chain</h3>
+            <p class="build-desc">
+              A sequential prompt chaining pipeline where each prompt consumes previous outputs to synthesize deep, exam-focused revision notes on Python Operators.
+            </p>
+            <div class="build-tags">
+              <span class="tag-pill">Prompt Chaining</span>
+              <span class="tag-pill">Sequential AI</span>
+              <span class="tag-pill">Curriculum</span>
+            </div>
+            <div class="build-actions">
+              <button class="btn-details" onclick="openProjectModal(5)">View Project</button>
+              <a href="Projects/Build_5_10_Step_Prompt_Chain_Report.docx" download class="link-report">
+                <span>View Report</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Build 06 -->
+        <div class="glass-card build-card">
+          <div class="build-thumb-wrap">
+            <img src="assets/images/build6.png" alt="Build 06 - My Personal AI Workspace" class="build-thumb">
+          </div>
+          <div class="build-body">
+            <div class="build-meta-row">
+              <span class="build-pill">BUILD 06</span>
+              <span class="build-status">● Verified Deliverable</span>
+            </div>
+            <h3 class="build-title">My Personal AI Workspace</h3>
+            <p class="build-desc">
+              The grand synthesis: a four-tier local Personal AI Operating System connecting tools, prompt libraries, knowledge context, and milestone project deliverables.
+            </p>
+            <div class="build-tags">
+              <span class="tag-pill">Personal AI OS</span>
+              <span class="tag-pill">Antigravity</span>
+              <span class="tag-pill">Architecture</span>
+            </div>
+            <div class="build-actions">
+              <button class="btn-details" onclick="openProjectModal(6)">View Project</button>
+              <a href="Projects/Build_6_Report.docx" download class="link-report">
+                <span>View Report</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       5. MY AI WORKSPACE ARCHITECTURE
+       ========================================== -->
+  <section id="workspace" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">System Architecture</div>
+        <h2 class="section-title">Four-Tier <span class="text-gradient">AI Operating System</span></h2>
+        <p class="section-desc">
+          Structured separation of concerns deployed locally on disk. Click any folder card to inspect its verified contents and operational role.
+        </p>
+      </div>
+
+      <div class="workspace-grid">
+        <!-- Tools -->
+        <div class="glass-card folder-card" onclick="openFolderModal('tools')">
+          <div class="folder-icon-wrap folder-icon-tools">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+            </svg>
+          </div>
+          <span class="folder-layer-tag">Execution Layer</span>
+          <h3 class="folder-title">Tools</h3>
+          <p class="folder-desc">AI model catalogs, usage guides, and operational playbooks.</p>
+          <span class="folder-meta">2 Verified Files</span>
+        </div>
+
+        <!-- Prompt Library -->
+        <div class="glass-card folder-card" onclick="openFolderModal('prompts')">
+          <div class="folder-icon-wrap folder-icon-prompts">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg>
+          </div>
+          <span class="folder-layer-tag">Procedural Memory</span>
+          <h3 class="folder-title">Prompt Library</h3>
+          <p class="folder-desc">6-field standardized prompt catalog and sequential chains.</p>
+          <span class="folder-meta">3 Verified Files</span>
+        </div>
+
+        <!-- Knowledge Base -->
+        <div class="glass-card folder-card" onclick="openFolderModal('knowledge')">
+          <div class="folder-icon-wrap folder-icon-knowledge">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+          </div>
+          <span class="folder-layer-tag">Context Repository</span>
+          <h3 class="folder-title">Knowledge Base</h3>
+          <p class="folder-desc">Grounded course notes, study systems, and NotebookLM sources.</p>
+          <span class="folder-meta">2 Verified Files</span>
+        </div>
+
+        <!-- Projects -->
+        <div class="glass-card folder-card" onclick="openFolderModal('projects')">
+          <div class="folder-icon-wrap folder-icon-projects">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+            </svg>
+          </div>
+          <span class="folder-layer-tag">Deliverables Hub</span>
+          <h3 class="folder-title">Projects</h3>
+          <p class="folder-desc">All milestone build reports, capstone portfolio, and future plan.</p>
+          <span class="folder-meta">8 Verified Files</span>
+        </div>
+      </div>
+
+      <!-- High Resolution Diagram Showcase -->
+      <div class="glass-card diagram-card">
+        <div class="diagram-header">
+          <h3>Local Workspace Topology</h3>
+          <p class="section-desc">Physical directory architecture verified on local disk.</p>
+        </div>
+        <img src="assets/images/workspace_architecture.png" alt="My AI Workspace High-Resolution Topology Diagram" class="diagram-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       6. PROMPT LIBRARY (Search & Filter)
+       ========================================== -->
+  <section id="prompts" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Procedural Memory</div>
+        <h2 class="section-title">Standardized <span class="text-gradient">Prompt Library</span></h2>
+        <p class="section-desc">
+          Extracted directly from <code>Prompt Library/10_Prompts.txt</code>. Every prompt follows the rigorous 6-field schema: 
+          Name, Category, Template, Best Tool, When to Use, and Notes.
+        </p>
+      </div>
+
+      <div class="prompt-controls">
+        <div class="search-bar-wrap">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="promptSearch" class="search-input" placeholder="Search prompts by keyword, category, or tool...">
+        </div>
+
+        <div class="category-filters">
+          <button class="filter-btn active" data-filter="All">All Prompts</button>
+          <button class="filter-btn" data-filter="Education">Education</button>
+          <button class="filter-btn" data-filter="Productivity">Productivity</button>
+          <button class="filter-btn" data-filter="Programming">Programming</button>
+          <button class="filter-btn" data-filter="Language">Language</button>
+          <button class="filter-btn" data-filter="Projects">Projects</button>
+          <button class="filter-btn" data-filter="Writing">Writing</button>
+          <button class="filter-btn" data-filter="Assessment">Assessment</button>
+        </div>
+      </div>
+
+      <div id="promptsGrid" class="prompts-grid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       7. MY LEARNING JOURNEY (Timeline)
+       ========================================== -->
+  <section id="journey" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Milestone Roadmap</div>
+        <h2 class="section-title">The 6-Day <span class="text-gradient">Bootcamp Journey</span></h2>
+        <p class="section-desc">
+          Chronological progression from basic prompt experimentation to an engineered Personal AI Operating System.
+        </p>
+      </div>
+
+      <div class="timeline-wrap">
+        <div class="timeline-line"></div>
+
+        <!-- Day 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="timeline-meta-row">
+              <span class="timeline-day">Day 01 • Build 01</span>
+              <span class="timeline-date">October 2026</span>
+            </div>
+            <h3 class="timeline-title">Frontier Model Benchmarking</h3>
+            <p class="timeline-desc">
+              Tested ChatGPT, Google Gemini, and Microsoft Copilot on identical coding and reasoning challenges. Established empirical evaluation criteria.
+            </p>
+            <div class="timeline-tools">Tools: ChatGPT, Gemini, Copilot, Python 3.14</div>
+          </div>
+        </div>
+
+        <!-- Day 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="timeline-meta-row">
+              <span class="timeline-day">Day 02 • Build 02</span>
+              <span class="timeline-date">October 2026</span>
+            </div>
+            <h3 class="timeline-title">Parameter-Driven Prompt Playbooks</h3>
+            <p class="timeline-desc">
+              Instituted the 6-field prompt architecture. Drafted 10 reusable prompt templates for study revision and technical tasks with verified outputs.
+            </p>
+            <div class="timeline-tools">Tools: ChatGPT, Notepad, Microsoft Word</div>
+          </div>
+        </div>
+
+        <!-- Day 3 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="timeline-meta-row">
+              <span class="timeline-day">Day 03 • Build 03</span>
+              <span class="timeline-date">October 2026</span>
+            </div>
+            <h3 class="timeline-title">Domain Study Kit (Python Operators)</h3>
+            <p class="timeline-desc">
+              Applied AI to syllabus mastery. Formulated structured concept sheets, operator syntax tables, and quiz sets for BCA exam preparation.
+            </p>
+            <div class="timeline-tools">Tools: ChatGPT, Google NotebookLM, Python</div>
+          </div>
+        </div>
+
+        <!-- Day 4 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="timeline-meta-row">
+              <span class="timeline-day">Day 04 • Build 04</span>
+              <span class="timeline-date">October 2026</span>
+            </div>
+            <h3 class="timeline-title">Career Alignment & Internship Prep</h3>
+            <p class="timeline-desc">
+              Analyzed a live Front-End Developer Intern posting at Arivihan Technologies. Tailored resume bullet points and formulated 10 interview Q&As.
+            </p>
+            <div class="timeline-tools">Tools: ChatGPT, Job Portals, Word</div>
+          </div>
+        </div>
+
+        <!-- Day 5 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="timeline-meta-row">
+              <span class="timeline-day">Day 05 • Build 05</span>
+              <span class="timeline-date">October 2026</span>
+            </div>
+            <h3 class="timeline-title">10-Step Sequential Prompt Chaining</h3>
+            <p class="timeline-desc">
+              Engineered an end-to-end curriculum pipeline for Python Operators, passing intermediate outputs sequentially through 10 stages without monolithic prompts.
+            </p>
+            <div class="timeline-tools">Tools: ChatGPT, Word, NotebookLM</div>
+          </div>
+        </div>
+
+        <!-- Day 6 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="timeline-meta-row">
+              <span class="timeline-day">Day 06 • Build 06</span>
+              <span class="timeline-date">October 2026</span>
+            </div>
+            <h3 class="timeline-title">Personal AI Operating System Capstone</h3>
+            <p class="timeline-desc">
+              Assembled all previous builds into a four-folder local taxonomy (Tools, Prompt Library, Knowledge Base, Projects). Verified 15 assets and published final portfolio.
+            </p>
+            <div class="timeline-tools">Tools: Antigravity Assistant, Python, Word, File Explorer</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       8. CONTACT & FOOTER
+       ========================================== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="glass-card contact-card">
+        <div class="section-badge">Get in Touch</div>
+        <h2 class="contact-title">Let's Connect and <span class="text-gradient">Build Something Meaningful.</span></h2>
+        <p class="contact-desc">
+          Interested in discussing practical AI workflows, front-end development, or BCA technical collaborations? Reach out through any channel below.
+        </p>
+
+        <div class="contact-channels">
+          <!-- EDITABLE PLACEHOLDER: LinkedIn Profile URL -->
+          <a href="https://www.linkedin.com/in/chetan-kumawat-placeholder" target="_blank" rel="noopener noreferrer" class="contact-box">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path>
+            </svg>
+            <div>
+              <div class="contact-label">LinkedIn</div>
+              <div class="contact-val">chetan-kumawat [Placeholder]</div>
+            </div>
+          </a>
+
+          <!-- EDITABLE PLACEHOLDER: Email Address -->
+          <a href="mailto:chetan.kumawat.placeholder@example.com" class="contact-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <div>
+              <div class="contact-label">Email</div>
+              <div class="contact-val">chetan.kumawat.placeholder@example.com</div>
+            </div>
+          </a>
+
+          <!-- College & Location Info -->
+          <div class="contact-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <div>
+              <div class="contact-label">Location</div>
+              <div class="contact-val">Indore, Madhya Pradesh, India</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="font-size: 0.85rem; color: var(--text-dim);">
+          Student at Acropolis Institute of Technology and Research (AITR), Indore
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       9. FOOTER
+       ========================================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-text">
+        © 2026 <strong>My AI Workspace</strong> • Chetan Kumawat (BCA 2nd Year, AITR Indore). All rights reserved.
+      </div>
+      <div class="footer-nav">
+        <a href="#home" class="footer-link">Back to Top ↑</a>
+        <a href="Projects/My_AI_Workspace_Portfolio_Final.docx" download class="footer-link">Download Portfolio</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       10. INTERACTIVE MODAL DIALOG
+       ========================================== -->
+  <div id="modalOverlay" class="modal-overlay" role="dialog" aria-modal="true">
+    <div class="modal-container">
+      <button id="modalClose" class="modal-close-btn" aria-label="Close dialog">&times;</button>
+      <div id="modalBody">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
